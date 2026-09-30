@@ -1,0 +1,13 @@
+{
+    "name": "@fasting-app/main",
+    "version": "0.1.0",
+    "type": "module",
+    "scripts": {
+        "type-check": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@fasting-app/domain": "workspace:*",
+        "@kinotic-ai/core": "catalog:",
+        "@kinotic-ai/management-api": "catalog:"
+    }
+}
